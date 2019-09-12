@@ -1,7 +1,20 @@
 /* only small desktops */
+@media (min-width: 2500px) {
+  .logoimg img{
+    /* object-fit: cover; */
+    width: 89%;
+  }
+  .top-nav-collapse .navbar-brand img {
+    width: 90%;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .top-nav-collapse .navbar-brand img {
-    width: 48%;
+    width: 90%;
+  }
+  .logoimg img{
+    /* object-fit: cover; */
+    width: 89%;
   }
 }
 
@@ -14,6 +27,10 @@
   .pricing-table-item {
     margin-bottom: 30px;
   }
+  .logoimg img{
+    /* object-fit: cover; */
+    width: 89%;
+  }
 }
 
 /* only small tablets */
@@ -23,7 +40,7 @@
     margin-bottom: 30px;
   }
   .top-nav-collapse .navbar-brand img {
-    width: 48%;
+    width: 90%;
   }
   .pricing-table-item {
     margin-bottom: 30px;
@@ -41,6 +58,10 @@
   #copyright .nav-inline li a {
     padding: 0px 0px 0px 4px;
   }
+  .logoimg img{
+    /* object-fit: cover; */
+    width: 89%;
+  }
 }
 
 /* mobile or only mobile */
@@ -53,7 +74,7 @@
     margin-bottom: 30px;
   }
   .top-nav-collapse .navbar-brand img {
-    width: 48%;
+    width: 90%;
   }
   .btn-lg {
     padding: 7px 14px;
@@ -68,7 +89,10 @@
     width: 48%;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
-    font-size: 12px;
+    font-size: 20px;
+  }
+  #carousel-area .carousel-item .carousel-caption h4 {
+    font-size: 15px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
     font-size: 10px;
@@ -110,5 +134,9 @@
   }
   #copyright .nav-inline li a {
     padding: 0px 0px 0px 4px;
+  }
+  .logoimg img{
+    /* object-fit: cover; */
+    width: 89%;
   }
 }

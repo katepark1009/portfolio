@@ -1701,6 +1701,7 @@ nav#menu span.fa.fa-bars:hover {
   border: 1px solid #e3e3e3;
 }
 
+
 /* Team Item */
 .team-item figure {
   position: relative;
@@ -2882,11 +2883,16 @@ nav#menu span.fa.fa-bars:hover {
 /* Sliders */
 /* Dark Slider */
 #dark-slider h3 {
-  color: #ccc;
+  color: rgb(224, 222, 222);
 }
 
 #dark-slider .slide-text {
-  color: #ccc;
+  color:  rgb(224, 222, 222);
+  line-height: 1.5;
+}
+
+.slide-text {
+  color:  rgb(224, 222, 222);
   line-height: 1.5;
 }
 
@@ -3044,7 +3050,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #carousel-area .carousel-item .carousel-caption {
-  top: 28%;
+  top: 20%;
   right: 10%;
   left: 10%;
   text-shadow: none;
@@ -3061,7 +3067,7 @@ nav#menu span.fa.fa-bars:hover {
 
 #carousel-area .carousel-item .carousel-caption h3 {
   font-size: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #fff;
   font-weight: 700;
 }
@@ -4427,6 +4433,9 @@ ul.nav-tabs li a {
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 26px;
   }
+  #carousel-area .carousel-item .carousel-caption h4 {
+    font-size: 18px;
+  }
   #carousel-area .carousel-item .carousel-caption h5 {
     margin-bottom: 10px;
   }
@@ -4514,6 +4523,9 @@ ul.nav-tabs li a {
   }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 26px;
+  }
+  #carousel-area .carousel-item .carousel-caption h4 {
+    font-size: 20px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
     margin-bottom: 0px;
@@ -4618,7 +4630,10 @@ ul.nav-tabs li a {
     top: 2%;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
-    font-size: 14px;
+    font-size: 25px;
+  }
+  #carousel-area .carousel-item .carousel-caption h4 {
+    font-size: 15px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
     margin-bottom: 3px;
@@ -4641,8 +4656,21 @@ ul.nav-tabs li a {
   .list-group {
     margin-bottom: 30px;
   }
+  #hero img{
+    height: 300px;
+  }
+  #hero2 img{
+    height: 300px;
+  }
 }
-
+@media (max-width: 330px) {
+  #hero img{
+    height: 200px;
+  }
+  #hero2 img{
+    height: 200px;
+  }
+}
 /* Custom CSS */
 body {
   color: #444;
@@ -4665,4 +4693,39 @@ img {
   padding-top: 50px;
   text-transform: uppercase;
   margin: 0 0 20px 0;
+}
+
+.inlinebox {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  width: 100;
+}
+.inlinebox h5{
+  text-align: center;
+}
+.inlinebox img{
+  width: 100px;
+  height: 100px;
+}
+.me{
+  border-radius: 15px;
+}
+
+.smallpic{
+  border-radius: 5px;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.logoimg{
+  /* object-fit: cover; */
+  width: 18%;
+  border: 1px solid #ea586f;
+}
+
+.logoimg img{
+  /* object-fit: cover; */
+  width: 89%;
 }
