@@ -4367,6 +4367,10 @@ ul.nav-tabs li a {
 .panel-group.tabbed .panel-heading .panel-title.collapsed:after {
   float: right;
 }
+.inlinebox img{
+  width: 100px;
+  height: 100px;
+}
 
 /* End Tabs & Accordions */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -4541,6 +4545,9 @@ ul.nav-tabs li a {
   .list-group {
     margin-bottom: 30px;
   }
+  .inlinebox h5{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -4662,6 +4669,13 @@ ul.nav-tabs li a {
   #hero2 img{
     height: 300px;
   }
+  .inlinebox img{
+    width: 50px;
+    height: 50px;
+  }
+  .inlinebox h5{
+    font-size: 10px;
+  }
 }
 @media (max-width: 330px) {
   #hero img{
@@ -4669,6 +4683,9 @@ ul.nav-tabs li a {
   }
   #hero2 img{
     height: 200px;
+  }
+  .inlinebox img{
+    width: 50;
   }
 }
 /* Custom CSS */
@@ -4697,16 +4714,13 @@ img {
 
 .inlinebox {
   display: inline-block;
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 10px 10px;
   width: 100;
 }
 .inlinebox h5{
   text-align: center;
 }
-.inlinebox img{
-  width: 100px;
-  height: 100px;
-}
+
 .me{
   border-radius: 15px;
 }
@@ -4728,4 +4742,17 @@ img {
 .logoimg img{
   /* object-fit: cover; */
   width: 89%;
+}
+
+.social-footer a{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#portfolio {
+  margin: auto;
+}
+
+.skills {
+  text-align: center;
 }
