@@ -4756,3 +4756,7 @@ img {
 .skills {
   text-align: center;
 }
+
+.memory img, .portfolio-item {
+  height: 100%;
+}
