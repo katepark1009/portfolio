@@ -4757,6 +4757,6 @@ img {
   text-align: center;
 }
 
-.memory img, .portfolio-item {
+.memory img, .portfolio-item, .memory {
   height: 100%;
 }
