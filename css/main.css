@@ -4673,6 +4673,10 @@ ul.nav-tabs li a {
     width: 50px;
     height: 50px;
   }
+  .inlinebox {
+    width: 50px;
+    height: 50px;
+  }
   .inlinebox h5{
     font-size: 10px;
   }
@@ -4686,6 +4690,10 @@ ul.nav-tabs li a {
   }
   .inlinebox img{
     width: 50;
+  }
+  .inlinebox {
+    width: 50px;
+    height: 50px;
   }
 }
 /* Custom CSS */
@@ -4756,3 +4764,8 @@ img {
 .skills {
   text-align: center;
 }
+
+.social-footer a .resume{
+  width: 75px;
+}
+

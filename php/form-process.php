@@ -1,5 +1,7 @@
 <?php
 
+require_once('emailcredential.php');
+
 $errorMSG = "";
 
 // NAME
@@ -32,7 +34,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "email@gmail.com";
+$EmailTo = "rudhi1009@gmail.com"
 $Subject = "New Message Received";
 
 // prepare email body text

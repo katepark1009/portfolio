@@ -21,8 +21,10 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "php/PHPMailer/sendmail.php",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        contentType:"application/json; charset=utf-8",
+        dataType:"json",
         success : function(text){
             if (text == "success"){
                 formSuccess();
