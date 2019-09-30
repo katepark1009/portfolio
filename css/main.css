@@ -4769,3 +4769,6 @@ img {
   width: 75px;
 }
 
+.memory img, .portfolio-item, .memory {
+  height: 100%;
+}
